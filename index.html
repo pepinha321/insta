@@ -16,25 +16,53 @@
             aspect-ratio: 1;
         }
     </style>
-    
+    <body>
+        <style>
+            body{
+               background-image: url("kond.png"); 
+               background-repeat: no-repeat;
+               background-position: right 0;
+               background-color: black;
+               color: white;
+        
+               background-size: cover;
+            }
+            .tituloDestaque{
+                text-align: center;
+                color: white;
+                font-size: 3em;
+                padding: 4%;
+                position: absolute;
+                top: 30%;
+                left: 25%;
+                width: 50%;
+            }
+            
+
+            
+        </style>
+        
+    </body>
+     
+
     <title>instagram</title>
 </head>
 <body>
 
+
+    <title>instagram</title>
+
     <img src="lozin.png" width="100"> <p class="nome">@vllg_lozinld</p>
 
     <p>da favela pro mundo!!! ouça realidade nas favela (lançamento)</p>
+
+    <audio src="realidade-das-favelas.mp3"autoplay controls muted loop></audio>
+
     
-    <button>play</button>
+    
+    
 
-    <script>
-        botao = document.querySelector('button')
-        musica = new Audio('realidade-das-favelas.mp3')
-        botao.addEventListener('click', e => {
-        
-            musica.play()
-        })
-    </script>
-
+    
 </body>
+
 </html>
